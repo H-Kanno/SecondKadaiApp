@@ -12,6 +12,8 @@ class ShowNameViewController: UIViewController {
     
     @IBOutlet weak var ShowNameLabel_1: UILabel!
     
+    //変数定義
+    var Flag: Bool = false
     var Name_1: String = "入力がありません。"
     
     
@@ -19,7 +21,13 @@ class ShowNameViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        ShowNameLabel_1.text = Name_1
+        //Labelへの値格納
+        if( Flag == true ){
+            ShowNameLabel_1.text = "こんにちは、\(Name_1) さん。"
+        }
+        else {
+            ShowNameLabel_1.text = Name_1
+        }
     }
 
     override func didReceiveMemoryWarning() {
