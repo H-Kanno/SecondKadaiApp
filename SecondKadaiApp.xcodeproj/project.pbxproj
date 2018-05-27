@@ -13,6 +13,7 @@
 		5821E26720BA53B8007F29FF /* SecondKadaiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5821E26520BA53B8007F29FF /* SecondKadaiApp.xcdatamodeld */; };
 		5821E26920BA53BA007F29FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5821E26820BA53BA007F29FF /* Assets.xcassets */; };
 		5821E26C20BA53BA007F29FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5821E26A20BA53BA007F29FF /* LaunchScreen.storyboard */; };
+		5821E27420BA582D007F29FF /* ShowNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821E27320BA582D007F29FF /* ShowNameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5821E26820BA53BA007F29FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5821E26B20BA53BA007F29FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5821E26D20BA53BA007F29FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5821E27320BA582D007F29FF /* ShowNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowNameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				5821E25E20BA53B8007F29FF /* AppDelegate.swift */,
 				5821E26020BA53B8007F29FF /* ViewController.swift */,
+				5821E27320BA582D007F29FF /* ShowNameViewController.swift */,
 				5821E26220BA53B8007F29FF /* Main.storyboard */,
 				5821E26820BA53BA007F29FF /* Assets.xcassets */,
 				5821E26A20BA53BA007F29FF /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5821E27420BA582D007F29FF /* ShowNameViewController.swift in Sources */,
 				5821E26720BA53B8007F29FF /* SecondKadaiApp.xcdatamodeld in Sources */,
 				5821E26120BA53B8007F29FF /* ViewController.swift in Sources */,
 				5821E25F20BA53B8007F29FF /* AppDelegate.swift in Sources */,
